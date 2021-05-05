@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora Jonathan</title>
+  </head>
+  <body>
+    <form action="javascript:void(0)">
+      <label>Ingresa un numero</label>
+      <input type="text" id="num1" value="">
+      <label>Ingresa otro numero</label>
+      <input type="text" id="num2" value="">
+
+      <label>Operaciones</label>
+      <button type="button" name="button" onclick="ejecutar('suma')">Suma</button>
+      <button type="button" name="button" onclick="ejecutar('resta')">Resta</button>
+      <button type="button" name="button" onclick="ejecutar('multiplicacion')">Multiplicacion</button>
+      <button type="button" name="button" onclick="ejecutar('division')">Division</button>
+    </form>
+    <form action="javascript:void(0)">
+
+      <label>Ingresa un numero</label>
+      <input type="text" id="num3" value="">
+      <label>Operaciones</label>
+      <button type="button" name="button" onclick="operacion('sin')">Seno</button>
+      <button type="button" name="button" onclick="operacion('cos')">Coseno</button>
+      <button type="button" name="button" onclick="operacion('tan')">Tangente</button>
+
+    </form>
+
+    <label>Resultado</label>
+    <input type="text" id="resultado" value="">
+    <script src="jquery.js" charset="utf-8"></script>
+    <script src="conexion.js" charset="utf-8"></script>
+  </body>
+</html>
